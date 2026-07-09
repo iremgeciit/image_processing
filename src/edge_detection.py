@@ -56,4 +56,5 @@ plt.title("Canny")
 plt.axis("off")
 
 plt.tight_layout()
+plt.savefig("../outputs/original6.jpg", dpi=300, bbox_inches="tight")
 plt.show()

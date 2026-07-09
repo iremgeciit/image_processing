@@ -59,4 +59,5 @@ plt.title("Closing")
 plt.axis("off")
 
 plt.tight_layout()
+plt.savefig("../outputs/original7.jpg", dpi=300, bbox_inches="tight")
 plt.show()

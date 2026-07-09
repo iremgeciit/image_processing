@@ -49,5 +49,5 @@ for i in range(len(images)):
     plt.axis("off")
 
 plt.tight_layout()
-
+plt.savefig("../outputs/original9.jpg", dpi=300, bbox_inches="tight")
 plt.show()

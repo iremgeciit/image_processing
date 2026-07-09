@@ -43,4 +43,5 @@ plt.xlabel("Pixel Value")
 plt.ylabel("Pixel Count")
 
 plt.tight_layout()
+plt.savefig("../outputs/original10.jpg", dpi=300, bbox_inches="tight")
 plt.show()

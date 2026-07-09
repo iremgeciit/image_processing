@@ -78,5 +78,5 @@ plt.title("Bilateral Filter")
 plt.axis("off")
 
 plt.tight_layout()
-
+plt.savefig("../outputs/original4.jpg", dpi=300, bbox_inches="tight")
 plt.show()
